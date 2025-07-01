@@ -1,0 +1,9 @@
+.Myabout{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+    border-bottom: 2px solid #4c4c4cb7;
+    width: 100px;
+    margin: 5rem auto ;
+}

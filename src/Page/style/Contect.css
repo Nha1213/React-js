@@ -1,0 +1,108 @@
+.contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 8rem 4rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contantImg{
+    text-align: right;
+    margin-top: 2rem;
+}
+
+
+.contantText form{
+    /* background-color: aqua; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contantText h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contantText input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgba(207, 203, 203, 0.544)
+}
+
+
+.contantText textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgba(207, 203, 203, 0.544)
+}
+
+.contantText button{
+    width: 100%;
+    margin-top: 0px;
+    border: none;
+    background-color: violet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+
+.contantText div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 575px) {
+    .contant{
+        flex-direction: column;
+        padding: 0rem 1rem;
+    }
+    .contantImg{
+        order: -1;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contantImg img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .contant{
+        flex-direction: column;
+        padding: 0rem 1rem;
+    }
+    .contantImg{
+        order: -1;
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    .contantImg img{
+        width: 100%;
+    }
+
+    .contantText h1{
+        display: none;
+    }
+    
+}

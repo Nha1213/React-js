@@ -1,0 +1,128 @@
+.all_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.controll_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 5rem;
+    /* margin: 1rem 8rem; */
+}
+
+
+.controll_image img {
+    width: 100%;
+    margin: auto;
+}
+
+.all_products .controll_image img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product_card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* width: 20%; */
+}
+
+.title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+}
+
+.controll_btn {
+    margin-top: 0rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: violet;
+    color: rgb(50, 50, 50);
+    cursor: pointer;
+
+}
+
+.controll {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin: auto;
+}
+
+.controll div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.controll div p {
+    margin-right: 8rem;
+    font-size: 1.2rem;
+}
+
+.product_card a {
+    text-decoration: none;
+}
+
+.controll_title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    width: 350px;
+    margin: auto;
+}
+
+.controll_title p {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 575px) {
+    .all_products {
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem 2rem;
+    }
+
+    .product_card {
+        padding: 1rem 2rem;
+    }
+
+
+    .controll_image {
+        margin: 5rem 0rem;
+        margin: auto;
+    }
+
+
+    .controll_btn {
+        margin-top: 0rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: violet;
+        color: rgb(50, 50, 50);
+        cursor: pointer;
+
+    }
+}

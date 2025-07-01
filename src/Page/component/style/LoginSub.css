@@ -1,0 +1,204 @@
+.loginForm {
+    /* width: 60%; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0rem;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.controll_img {
+    width: 500px;
+    /* height: 650px; */
+    height: 100vh;
+}
+
+.controll_img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.login {
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.controll_form {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.login_text {
+    text-align: center;
+    /* padding: 0.5rem 2rem; */
+    color: rgb(72, 72, 72);
+    font-weight: 500;
+}
+
+.btn-google button {
+    width: 100%;
+    padding: 0.5rem 0rem;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(107, 107, 107, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-google button:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-google button:active {
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.btn-google button:last-child {
+    margin-top: 0.6rem;
+}
+
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.or div {
+    width: 100%;
+}
+
+.form form div .controll_icon {
+    position: absolute;
+    margin-left: 0.5rem;
+    margin-top: 1.9rem;
+}
+
+.form form .con_input input {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 2.2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(207, 203, 203, 0.544);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.from form .con_input input:focus {
+    outline: 1px solid rgb(0, 0, 214);
+    border: 1px solid rgb(0, 0, 214);
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.remember div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.login_btn button {
+    width: 100%;
+    padding: 0.5rem 0rem;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: 0px 0px 10px 0px rgba(130, 130, 130, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 1rem;
+}
+
+.login_btn button:hover {
+    /* transform: scale(1.1); */
+    transition: transform 0.3s ease-in-out;
+}
+
+.login_btn button:active {
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+.register_forget {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: rgb(72, 72, 72);
+    font-weight: 500;
+}
+
+.btn-google i {
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 975px) {
+    .controll_img {
+        display: none;
+    }
+
+    .loginForm {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        border-radius: 10px;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .loginForm {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: auto;
+        margin-top: 1rem;
+        width: 96%;
+        padding: 0rem 0rem;
+    }
+
+    .controll_form {
+        margin-top: 2rem;
+        padding: 0rem 1em;
+    }
+
+}

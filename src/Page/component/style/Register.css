@@ -1,0 +1,47 @@
+.fandl_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fandl_name input{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(207, 203, 203, 0.544);
+    transition: transform 0.3s ease-in-out;
+}
+
+.full_name input{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(207, 203, 203, 0.544);
+    transition: transform 0.3s ease-in-out;
+}   
+
+.message textarea{
+   width: 100%;
+   height: 100px;
+   margin-top: 1rem;
+   padding: 1rem 2rem;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   background-color: rgba(207, 203, 203, 0.544);
+   transition: transform 0.3s ease-in-out;
+}
+
+.show_password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}

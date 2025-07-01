@@ -28,7 +28,7 @@ import o6 from '../assets/speaker/6.jpg'
 import o7 from '../assets/speaker/7.jpg'
 import o8 from '../assets/speaker/8.jpg'
 
-import p1 from '../assets/Ipad/p1.jpg'
+import p1 from '../assets/Ipad/P1.jpg'
 import p2 from '../assets/Ipad/p2.jpg'
 import p3 from '../assets/Ipad/p3.jpg'
 import p4 from '../assets/Ipad/p4.jpg'

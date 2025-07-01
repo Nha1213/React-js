@@ -1,5 +1,5 @@
 import contact from "../assets/content-2.png"
-import "./style/contect.css"
+import "./style/Contect.css"
 import { useState } from "react"
 const ContectUs = () => {
 
